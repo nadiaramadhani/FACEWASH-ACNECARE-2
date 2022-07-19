@@ -30,7 +30,7 @@
 		9B470E8F2881157D00E48FD8 /* FACEWASH_ACNECAREApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470E8E2881157D00E48FD8 /* FACEWASH_ACNECAREApp.swift */; };
 		9B470E912881157D00E48FD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470E902881157D00E48FD8 /* ContentView.swift */; };
 		9B470E932881157D00E48FD8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470E922881157D00E48FD8 /* NotificationController.swift */; };
-		9B470E952881157D00E48FD8 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470E942881157D00E48FD8 /* NotificationView.swift */; };
+		9B470E952881157D00E48FD8 /* MainSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470E942881157D00E48FD8 /* MainSettingView.swift */; };
 		9B470E972881157D00E48FD8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470E962881157D00E48FD8 /* ComplicationController.swift */; };
 		9B470E992881157E00E48FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B470E982881157E00E48FD8 /* Assets.xcassets */; };
 		9B470E9C2881157E00E48FD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B470E9B2881157E00E48FD8 /* Preview Assets.xcassets */; };
@@ -44,9 +44,9 @@
 		9B470ECE28811DC000E48FD8 /* siri.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B470ECC28811DC000E48FD8 /* siri.mp3 */; };
 		9B470ECF28811DC000E48FD8 /* siri.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B470ECC28811DC000E48FD8 /* siri.mp3 */; };
 		9B470ED528811E0E00E48FD8 /* SoundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470ED428811E0E00E48FD8 /* SoundViewModel.swift */; };
-		9B470EDE2881A95E00E48FD8 /* WatchDatePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 9B470EDD2881A95E00E48FD8 /* WatchDatePicker */; };
 		9B470EE02883A04000E48FD8 /* GuidelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470EDF2883A04000E48FD8 /* GuidelineView.swift */; };
 		9B470EE22883A22100E48FD8 /* SetReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470EE12883A22100E48FD8 /* SetReminderView.swift */; };
+		9B5123B0288656F5002A538D /* WatchDatePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 9B5123AF288656F5002A538D /* WatchDatePicker */; };
 		9BAA04A2288530DB005E07D0 /* FinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA04A1288530DB005E07D0 /* FinishView.swift */; };
 /* End PBXBuildFile section */
 
@@ -107,7 +107,7 @@
 		9B470E8E2881157D00E48FD8 /* FACEWASH_ACNECAREApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FACEWASH_ACNECAREApp.swift; sourceTree = "<group>"; };
 		9B470E902881157D00E48FD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B470E922881157D00E48FD8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		9B470E942881157D00E48FD8 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		9B470E942881157D00E48FD8 /* MainSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSettingView.swift; sourceTree = "<group>"; };
 		9B470E962881157D00E48FD8 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		9B470E982881157E00E48FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B470E9B2881157E00E48FD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -123,6 +123,7 @@
 		9B470ED428811E0E00E48FD8 /* SoundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewModel.swift; sourceTree = "<group>"; };
 		9B470EDF2883A04000E48FD8 /* GuidelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidelineView.swift; sourceTree = "<group>"; };
 		9B470EE12883A22100E48FD8 /* SetReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetReminderView.swift; sourceTree = "<group>"; };
+		9B5123AE2886569F002A538D /* watch-date-picker */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "watch-date-picker"; sourceTree = "<group>"; };
 		9BAA04A1288530DB005E07D0 /* FinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B470EDE2881A95E00E48FD8 /* WatchDatePicker in Frameworks */,
+				9B5123B0288656F5002A538D /* WatchDatePicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +142,7 @@
 		9B470E732881157B00E48FD8 = {
 			isa = PBXGroup;
 			children = (
+				9B5123AE2886569F002A538D /* watch-date-picker */,
 				9B470E822881157B00E48FD8 /* FACEWASH-ACNECARE WatchKit App */,
 				9B470E8D2881157D00E48FD8 /* FACEWASH-ACNECARE WatchKit Extension */,
 				9B470E7B2881157B00E48FD8 /* Products */,
@@ -201,7 +203,7 @@
 				9B470EB2288116AB00E48FD8 /* TimerView.swift */,
 				9B470EE12883A22100E48FD8 /* SetReminderView.swift */,
 				9B470EB4288116C100E48FD8 /* MorningPickerView.swift */,
-				9B470E942881157D00E48FD8 /* NotificationView.swift */,
+				9B470E942881157D00E48FD8 /* MainSettingView.swift */,
 				9B470EDF2883A04000E48FD8 /* GuidelineView.swift */,
 				9BAA04A1288530DB005E07D0 /* FinishView.swift */,
 			);
@@ -264,7 +266,6 @@
 			);
 			name = "FACEWASH-ACNECARE";
 			packageProductDependencies = (
-				9B470ED928815D2200E48FD8 /* WatchDatePicker */,
 			);
 			productName = "FACEWASH-ACNECARE";
 			productReference = 9B470E7A2881157B00E48FD8 /* FACEWASH-ACNECARE.app */;
@@ -301,7 +302,7 @@
 			);
 			name = "FACEWASH-ACNECARE WatchKit Extension";
 			packageProductDependencies = (
-				9B470EDD2881A95E00E48FD8 /* WatchDatePicker */,
+				9B5123AF288656F5002A538D /* WatchDatePicker */,
 			);
 			productName = "FACEWASH-ACNECARE WatchKit Extension";
 			productReference = 9B470E892881157D00E48FD8 /* FACEWASH-ACNECARE WatchKit Extension.appex */;
@@ -338,7 +339,6 @@
 			);
 			mainGroup = 9B470E732881157B00E48FD8;
 			packageReferences = (
-				9B470ED828815D2200E48FD8 /* XCRemoteSwiftPackageReference "watch-date-picker" */,
 			);
 			productRefGroup = 9B470E7B2881157B00E48FD8 /* Products */;
 			projectDirPath = "";
@@ -416,7 +416,7 @@
 				9B470EB5288116C100E48FD8 /* MorningPickerView.swift in Sources */,
 				9B470EC32881192100E48FD8 /* TimerModel.swift in Sources */,
 				9B470E8F2881157D00E48FD8 /* FACEWASH_ACNECAREApp.swift in Sources */,
-				9B470E952881157D00E48FD8 /* NotificationView.swift in Sources */,
+				9B470E952881157D00E48FD8 /* MainSettingView.swift in Sources */,
 				9B470EE02883A04000E48FD8 /* GuidelineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,26 +730,9 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		9B470ED828815D2200E48FD8 /* XCRemoteSwiftPackageReference "watch-date-picker" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/freyaariel/watch-date-picker";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		9B470ED928815D2200E48FD8 /* WatchDatePicker */ = {
+		9B5123AF288656F5002A538D /* WatchDatePicker */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9B470ED828815D2200E48FD8 /* XCRemoteSwiftPackageReference "watch-date-picker" */;
-			productName = WatchDatePicker;
-		};
-		9B470EDD2881A95E00E48FD8 /* WatchDatePicker */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B470ED828815D2200E48FD8 /* XCRemoteSwiftPackageReference "watch-date-picker" */;
 			productName = WatchDatePicker;
 		};
 /* End XCSwiftPackageProductDependency section */
